@@ -1,4 +1,3 @@
-/* src/index.css yoki global.css */
 @font-face {
   font-family: 'TT Interfaces';
   src: url('/fonts/TT-Interfaces.woff2') format('woff2');
