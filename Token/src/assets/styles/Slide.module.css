@@ -1,0 +1,39 @@
+.slider {
+  height: 120px;
+  overflow: hidden;
+  position: relative;
+  background: #090A0E;
+  display: flex;
+  align-items: center;
+}
+
+.slide-track {
+  display: flex;
+  width: calc(250px * 12); /* 250px * (logos * 2) */
+  animation: scroll 20s linear infinite;
+}
+
+.slide {
+  height: 120px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slide img {
+  height: 60px;
+  width: auto;
+  opacity: 0.85;
+  transition: 0.3s;
+}
+
+.slide img:hover {
+  opacity: 1;
+}
+
+/* Animation */
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(calc(-250px * 6)); }
+}
