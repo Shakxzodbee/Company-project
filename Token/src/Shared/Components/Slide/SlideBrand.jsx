@@ -48,8 +48,7 @@ const Slidestyle = {
     textAlign: "center",
     fontStyle: "semibold",
     letterspacing: "-2%",
-    // color: "rgba(245, 249, 255, 1)",
-    color: "radial-gradient(circle at center, #F5F9FF, #7DB5FF)",
+    color: "rgba(245, 249, 255, 1)",
   },
   span: {
     color: "radial-gradient(circle at center, #F5F9FF, #7DB5FF)",
@@ -64,7 +63,7 @@ const Slidestyle = {
 export default function SlideBrand() {
   return (
     <div style={{ marginBottom: "80px" }}>
-      <h1 style={Slidestyle.title}>Our token</h1>
+      <h3 style={Slidestyle.title}>Our token</h3>
       <p style={Slidestyle.title}><span style={Slidestyle.span}>Partnership</span>  with</p>
       <MultiRowLogoSlider items={brands} speed={40} />
     </div>
